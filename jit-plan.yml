@@ -27,3 +27,6 @@ items:
   - name: Verify that the users of your AWS accounts have enabled MFA
     uses: >-
       jitsecurity-controls/jit-plans/items/infrastructure/item-mfa-cloud-providers.yml@latest
+  - name: Scan your infrastructure-as-code (IaC) for misconfigurations
+    uses: >-
+      jitsecurity-controls/jit-plans/items/infrastructure/item-iac-misconfiguration-detection.yml@latest
