@@ -7,3 +7,8 @@ applications:
   exclude_paths: []
   target_url: https://dev.valassis.eu/capi
   type: web
+aws:
+- account_id: '155136788633'
+  regions:
+  - eu-west-1
+  type: account
