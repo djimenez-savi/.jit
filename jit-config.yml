@@ -1,9 +1,0 @@
-applications:
-- api_domain: dev.valassis.eu
-  application_name: CAPI
-  auth_header_name: Authorization
-  auth_header_value: encrypted$AQICAHiKRGWn+EHruY/484rO7pJxzFGc/JSwAlIzIzxLWzk4OwET+4BWzuh1zJ801BTy0XHqAAAAgzCBgAYJKoZIhvcNAQcGoHMwcQIBADBsBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDF9BBAittQOauZevdAIBEIA/49CCjTdOfA6MdKLh5052MtomRZenp1zOEoULDiARRV1dZcyNaRbCwK1mxUH1THhUSQzDSKo4HvCQQzX/hj5f
-  authentication_mode: header-custom
-  exclude_paths: []
-  target_url: https://dev.valassis.eu/capi
-  type: web
